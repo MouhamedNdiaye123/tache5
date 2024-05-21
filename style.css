@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+section{
+    padding: 30px 8%;
+}
+img{
+    width: 100%;
+}
+
+/* NAVIGATION */
+.tete{
+    background: no-repeat center / cover url(./images/bg.jpg);
+    min-height: 90vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 173, 1);
+    padding: 35px;
+    color: white;
+    border-radius: 7px;
+
+}
+header .header-box{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.header-box p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.header-box i{
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+/* CV */
+.cv{
+    text-align: end;
+    margin: 25px 0;
+}
+.cv a{
+    display: inline-block;
+    background-color: rgb(255, 173, 1);
+    padding: 15px 30px;
+    font-size: 17px;
+    border-radius: 7px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.cv a:hover{
+    margin-top: -5px;
+}
+
+
+/* PROFILS STYLE */
+.profils{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+     */
+    margin: auto;
+    max-width: 900px;
+}
+.profil-content{
+    margin-top: -190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.profil-content img{
+    margin-top: -100px;
+    width: 170px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    
+}
+.profil-content h2{
+    font-size: 30px;
+    font-weight: 00;
+}
+.profil-content h4{
+    font-size: 25px;
+    color: rgb(255, 173, 1);
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.profil-content p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.profil-content p span{
+    font-weight: 550;
+}
+.profil-content .profil-icon{
+    display: flex;
+    margin-top: 10px;
+}
+.profil-icon .icon-box{
+    background-color: rgb(151, 132, 159);
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 10px;
+    margin: 10px 8px;
+}
+.icon-box:hover{
+    background-color: rgb(255, 173, 1);
+}
+.icon-box i{
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
